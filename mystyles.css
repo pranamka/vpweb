@@ -1,0 +1,179 @@
+body, html{
+	/*background-color: WHITESMOKE; */
+	/*background-color: HONEYDEW; */
+	background-color: MINTCREAM; 
+	width: 900;  
+	height: 80%;  
+
+}
+h1{
+	font-size: 30px; 
+
+}
+
+#headnoanimation{
+	text-decoration: none;
+	color: darkgreen; 
+	font-family: Philosopher; 
+}
+
+#header_info_left{
+	background-color: YELLOWGREEN; 
+	color: darkgreen; 
+	padding-top: 3px; 
+	text-align: left;
+	padding-left: 50px; 
+	font-family: Philosopher; 
+	font-size: 10px; 
+	width: auto; 
+
+}
+
+#header_info_right{
+	background-color: YELLOWGREEN; 
+	color: darkgreen; 
+	padding-top: 0px; 
+	text-align: right;
+	padding-right: 50px; 
+	font-family: Philosopher; 
+	font-size: 20px; 
+	padding-bottom: 10px; 
+	width: auto; 
+	margin-bottom: 0px; 
+	margin-top: 0px; 
+}
+
+
+li {
+    display: inline;
+
+}
+
+#table_bar{
+	width: auto; 
+	text-align: right;
+	float: right; 
+	/*height: 10px; */
+	padding-right: 20px;*/
+
+} 
+
+
+.text_dec{
+	text-decoration: none;
+	color: YELLOWGREEN; 
+	text-align: right;
+	font-family: Oswald; 
+	font-size: 20px; 
+}
+
+/*.text_dec_left{
+	text-decoration: none;
+	color: YELLOWGREEN; 
+	text-align: left;
+	font-family: Oswald; 
+	font-size: 20px; 
+	padding-right: 650px; 
+}*/
+
+
+
+/** {box-sizing:border-box}*/
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  /*position: relative;*/
+  margin: auto;
+  padding-top: 10px; 
+  
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+.imageattributes{
+	width:100%; 
+	/*padding-left: 25px; 
+	padding-right: 20px; */
+	margin-bottom: 40px; 
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 70%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: YELLOWGREEN;
+  font-weight: bold;
+  font-size: 25px;
+  transition: 0.6s ease;
+  /*border-radius: 0 3px 3px 0;*/
+   display: inline-block;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+
+  /*border-radius: 3px 0 0 3px;*/
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.1);
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/*AboutMe Page CSS*/
+
+#aboutmecontainer{
+
+	margin-top: 10px; 
+	margin-left: 40px; 
+	margin-right: 40px; 
+	margin-bottom: 40px; 
+
+	padding-top: 0px; 
+	padding-bottom: 0px; 
+	padding-left: 10px; 
+	padding-right: 10px; 
+
+	border: 5px groove OLIVEDRAB; 
+	background-color: YELLOWGREEN; 
+	color: darkgreen; 
+	font-family: 'EB Garamond', serif;
+	font-size: 20px; 
+	float: right; 
+
+}
+#aboutmeimage{
+	width: 280px; 
+	height: 280px; 
+	float: left;
+	padding-right: 10px; 
+
+
+}
