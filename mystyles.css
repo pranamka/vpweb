@@ -32,15 +32,16 @@ h1{
 #header_info_right{
 	background-color: YELLOWGREEN; 
 	color: darkgreen; 
-	padding-top: 0px; 
+	width: auto; 
 	text-align: right;
-	padding-right: 50px; 
 	font-family: Philosopher; 
 	font-size: 20px; 
+	padding-top: 0px; 
 	padding-bottom: 10px; 
-	width: auto; 
+	padding-right: 50px; 
 	margin-bottom: 0px; 
 	margin-top: 0px; 
+
 }
 
 
@@ -177,3 +178,96 @@ li {
 
 
 }
+
+/*Footer related CSS */
+footer {
+  background:YELLOWGREEN;
+  /*bottom: 0;*/
+  width: 100%;
+  height: 100px;
+  margin-bottom: 20px; 
+}
+
+.column {
+    float: left;
+    width: 50%;
+    text-align: left;
+   
+}
+
+.column1 {
+    float: right;
+    width: 50%;
+    text-align: right;
+ 
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+#email_attributes{
+
+	font-family: Philosopher; 
+	font-size: 15px; 
+	color: black; 
+	text-align: right;
+	padding-top: 15px; 
+	padding-right: 70px; 
+	/*padding-left: 50px; */
+
+}
+
+#email_img_attributes{
+	width: 20px; 
+	height: 15px; 
+	padding-right: 3px; 
+	/*padding-left: 50px; */
+
+}
+
+#mobile_attributes{
+
+	font-family: Philosopher; 
+	font-size: 15px; 
+	color: black; 
+	display: block;
+	text-align: right; 
+	padding-top: 5px; 
+	padding-right: 70px; 
+
+}
+
+#mobile_img_attributes{
+	width: 15px; 
+	height: 15px;
+	padding-right: 3px;  
+	
+}
+
+#divnxt{
+
+	font-family: Philosopher; 
+	font-size: 15px; 
+	color: black; 
+	text-align: left;
+	font-style: italic;
+	padding-left: 50px; 
+
+}
+
+
+#fb_img_attributes{
+	width: 25px; 
+	height: 25px; 
+	padding-right: 20px; 
+	/*padding-top: 5px; */
+
+
+}
+
