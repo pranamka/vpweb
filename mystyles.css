@@ -2,8 +2,10 @@ body, html{
 	/*background-color: WHITESMOKE; */
 	/*background-color: HONEYDEW; */
 	background-color: MINTCREAM; 
-	width: 900;  
-	height: 80%;  
+	width: 100%;  
+	height: 100%;  
+	min-width: 600px;
+	/*display: inline;*/
 
 }
 h1{
@@ -37,7 +39,7 @@ h1{
 	font-family: Philosopher; 
 	font-size: 20px; 
 	padding-top: 0px; 
-	padding-bottom: 10px; 
+	padding-bottom: 15px; 
 	padding-right: 50px; 
 	margin-bottom: 0px; 
 	margin-top: 0px; 
@@ -68,25 +70,13 @@ li {
 	font-size: 20px; 
 }
 
-/*.text_dec_left{
-	text-decoration: none;
-	color: YELLOWGREEN; 
-	text-align: left;
-	font-family: Oswald; 
-	font-size: 20px; 
-	padding-right: 650px; 
-}*/
-
-
-
-/** {box-sizing:border-box}*/
 
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
-  /*position: relative;*/
   margin: auto;
   padding-top: 10px; 
+  min-height:100vh
   
 }
 
@@ -149,27 +139,29 @@ li {
 }
 
 /*AboutMe Page CSS*/
+.aboutme-container {
 
-#aboutmecontainer{
+  	padding-top: 10px; 
+	margin-top: 40px; 
+	margin-left: 20px; 
+	margin-right: 20px; 
 
-	margin-top: 10px; 
-	margin-left: 40px; 
-	margin-right: 40px; 
-	margin-bottom: 40px; 
-
-	padding-top: 0px; 
-	padding-bottom: 0px; 
+	padding-bottom: 10px; 
 	padding-left: 10px; 
 	padding-right: 10px; 
+	text-align: left;
 
-	border: 5px groove OLIVEDRAB; 
-	background-color: YELLOWGREEN; 
+	
+	/*border: 5px groove OLIVEDRAB; */
+	
 	color: darkgreen; 
 	font-family: 'EB Garamond', serif;
 	font-size: 20px; 
-	float: right; 
-
+	 min-height:100vh
+/*	float: right; 
+  */
 }
+
 #aboutmeimage{
 	width: 280px; 
 	height: 280px; 
@@ -181,11 +173,17 @@ li {
 
 /*Footer related CSS */
 footer {
-  background:YELLOWGREEN;
+	
+  	background:YELLOWGREEN;
   /*bottom: 0;*/
-  width: 100%;
-  height: 100px;
-  margin-bottom: 20px; 
+  	width: 100%;
+  	height: 80px;
+  	margin-bottom: 20px; 
+}
+#aboutme_footer{
+	position: relative;
+	bottom: 0; 
+
 }
 
 .column {
@@ -253,21 +251,54 @@ footer {
 #divnxt{
 
 	font-family: Philosopher; 
-	font-size: 15px; 
-	color: black; 
+	font-size: 11px; 
+	color: MAROON; 
 	text-align: left;
 	font-style: italic;
-	padding-left: 50px; 
+	padding-left: 30px; 
 
 }
 
 
 #fb_img_attributes{
-	width: 25px; 
-	height: 25px; 
-	padding-right: 20px; 
-	/*padding-top: 5px; */
+	width: 20px; 
+	height: 20px; 
+	padding-right: 10px; 
+	text-align: left; 
+	float: left;
+
+}
+#instagram_img_attributes{
+	width: 20px; 
+	height: 20px; 
+	float: left;
+
+}
+.gallery_image_attributes{
+	padding-top: 10px;
+	width:150px; 
+	height: 100px; 
+	padding-right: 5px; 
+
+}
+
+.gallery-container {
+
+  	padding-top: 30px; 
+	margin-top: 40px; 
+	margin-left: 20px; 
+	margin-right: 20px; 
+	position:center;
 
 
+	/*padding-left: 30px; */
+	/*padding-right: 10px; */
+	
+	/*border: 5px groove OLIVEDRAB; */
+	 min-height:100vh; 
+
+
+/*	float: right; 
+  */
 }
 
